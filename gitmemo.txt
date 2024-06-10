@@ -1,0 +1,6 @@
+追加で作成した内容を更新する
+git push
+git add
+git commit -m
+git push
+ブラウザで更新されるかどうか確認します
