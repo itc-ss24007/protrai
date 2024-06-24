@@ -10,7 +10,7 @@ def update_time():
     now = datetime.datetime.now()
     current_time=now.strftime("%Y年%m月%d日 %H時%M分%S秒")
     lbl.config(text= current_time) #ラベルに現在の時刻を挿入する
-    root.after(1000,update_time)　#毎after1000ms自分をもう一回呼び出す1000ミリ秒(millsecond)が1秒に相当する、
+    root.after(1000,update_time)#毎after1000ms自分をもう一回呼び出す1000ミリ秒(millsecond)が1秒に相当する、
 
 # TkinterのWindowを作成
 root = tk.Tk() #初めのおまじない(魔法)
